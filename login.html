@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HLB HR Login</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="https://hlbhamt.com/wp-content/uploads/2019/01/cropped-HLB.-1-192x192.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+    <div class="login-logo">
+        <img src="download.png" alt="HLB HR Logo">
+    </div>
+    <form class="login-form" onsubmit="return validateLogin()">
+        <input type="email" id="email" placeholder="E-mail" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <div class="login-remember-me">
+            <label class="checkbox-label">
+                <input type="checkbox" name="remember" id="remember"> Remember Me
+            </label>
+            <a href="forgot-password.html" class="forgot-password">Forgot Password?</a>
+        </div>
+        <button type="submit">LOGIN</button>
+        <div class="login-links">
+            New User? <a href="registration.html">Click here to register.</a>
+        </div>
+    </form>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 HLB Hamt. All rights reserved.</p>
+        <p>Contact us at <a href="mailto:info@hlbhamt.com">info@hlbhamt.com</a>.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
